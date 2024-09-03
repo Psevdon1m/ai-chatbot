@@ -7,6 +7,15 @@ Authorization: Bearer {{$dotenv NUXT_OPENAI_API_KEY}}
 {
   "model": "gpt-3.5-turbo",
   "messages": [{"role": "user", "content": "Say this is a test!"}],
-  "temperature": 0,
+  "temperature": 0.7,
   "n": 1
+}
+
+###
+POST http://localhost:3000/api/ai
+Content-Type: application/json
+
+{
+ "agent":"facebookAgent",
+ "url":"https://www.google.com/search?q=https%253A%252F%252Fwww.facebook.com%252Ftheapplepost%252Fposts%252Fpfbid026ceRvBoUUmq64fK1R18N1oVp3yqmkoyjEwpiVT3sYVTa3pnKcXyeV1fEnJAL1yUXl%26show_text%3Dtrue%26width%3D500%22%2520width%3D%22500%22%2520height%3D%22500%22%2520style%3D%22border%3Anone%3Boverflow%3Ahidden%22%2520scrolling%3D%22no%22%2520frameborder%3D%220%22%2520allowfullscreen%3D%22true%22%2520allow%3D%22autoplay%3B%2520clipboard-write%3B%2520encrypted-media%3B%2520picture-in-picture%3B%2520web-share&oq=https%253A%252F%252Fwww.facebook.com%252Ftheapplepost%252Fposts%252Fpfbid026ceRvBoUUmq64fK1R18N1oVp3yqmkoyjEwpiVT3sYVTa3pnKcXyeV1fEnJAL1yUXl%26show_text%3Dtrue%26width%3D500%22%2520width%3D%22500%22%2520height%3D%22500%22%2520style%3D%22border%3Anone%3Boverflow%3Ahidden%22%2520scrolling%3D%22no%22%2520frameborder%3D%220%22%2520allowfullscreen%3D%22true%22%2520allow%3D%22autoplay%3B%2520clipboard-write%3B%2520encrypted-media%3B%2520picture-in-picture%3B%2520web-share&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARAuGEDSAQgyMDU1ajBqOagCALACAQ&sourceid=chrome&ie=UTF-8"
 }
