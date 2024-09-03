@@ -12,7 +12,7 @@ This project demonstrates how to create an interactive AI chat bot using Vue.js 
 ## Features
 
 - **GPT-4 Integration**: Leverages the power of GPT-4 for natural language understanding and generation.
-- **Vue.js Frontend**: A clean and responsive user interface built with Vue.js.
+- **Vue.js Frontend**: A clean and responsive user interface built with Nuxt, Composition API, utilize public as well as custom created composables and Typescript.
 - **Chat Interface**: Supports real-time messaging with the AI.
 - **API Handling**: Manages API requests and responses efficiently.
 - **Customizable**: Easily extend and modify the chat bot to fit different use cases.
