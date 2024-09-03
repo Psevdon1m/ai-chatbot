@@ -5,6 +5,9 @@ This repository contains the source code for an AI Chat Bot built using Vue.js a
 ## Overview
 
 This project demonstrates how to create an interactive AI chat bot using Vue.js and OpenAI's GPT-4 API. The chat bot is capable of understanding and generating human-like text, making it suitable for a wide range of conversational applications.
+![AI Chat Bot Screenshot](/images/site-preview.png)
+![Chat communication preview](/images/communication-preview.png)
+![Post generation preview](/images/post-generation-preview.png)
 
 ## Features
 
