@@ -1,6 +1,6 @@
 # AI Chat Bot with Vue.js and GPT-4
 
-This repository contains the source code for an AI Chat Bot built using Vue.js and GPT-4, developed as part of the [Vue School course](https://vueschool.io/courses/ai-chat-bot-with-vue-js-and-gpt-4).
+This repository contains the source code for an AI Chat Bot built using Vue/Nuxt and GPT-4, developed as part of the [Vue School course](https://vueschool.io/courses/ai-chat-bot-with-vue-js-and-gpt-4).
 
 ## Overview
 
